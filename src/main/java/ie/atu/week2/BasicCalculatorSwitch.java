@@ -32,7 +32,7 @@ public class BasicCalculatorSwitch {
 
             default -> {
                 System.out.println("Invalid operation");
-                yield 0; //yield in default
+                yield 0;
             }
         };
 
